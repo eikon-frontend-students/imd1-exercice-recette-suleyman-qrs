@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #33362e;
+  --secondary-color: #0b100e;
+  --tertiary-color: #393932;
+  --quaternary-color: #101010;
+  --white-color: #fff;
+}
+
+body {
+  width: 1161px;
+  height: 653px;
+  background: var(--primary-color);
+  font-family: "Buenard", monospace;
+}
+.buenard-regular {
+  font-family: "Buenard", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.buenard-bold {
+  font-family: "Buenard", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  width: 353px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 32px;
+  background: var(--secondary-color);
+  font-family: "Buenard", monospace;
+  box-shadow: 3px 10px 24px 0px var(--quaternary-color);
+}
+
+h1 {
+  color: var(--white-color);
+  font-family: "Buenard", monospace;
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: var(--white-color);
+  font-family: "Buenard", monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: var(--quaternary-color);
+  border: 5px solid var(--primary-color);
+
+}
+
+h2 {
+  color: var(--white-color);
+  font-family: "Buenard", monospace;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+ul {
+  color: var(--white-color);
+  font-family: "Buenard", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a:hover {
+  cursor: pointer;
+  box-shadow: inset 100px 0 0 100px #54b3d6;
+}
+
+a { color: var(--white-color);
+text-decoration: none; }
