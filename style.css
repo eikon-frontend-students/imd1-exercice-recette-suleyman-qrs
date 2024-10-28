@@ -80,6 +80,7 @@ ul {
 
 a:hover {
   cursor: pointer;
+  box-shadow: inset 100px 0 0 100px #54b3d6;
 }
 
 a { color: var(--white-color);
